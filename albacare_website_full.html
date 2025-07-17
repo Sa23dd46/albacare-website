@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlbaCare - Integrated Healthcare Ecosystem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007ACC;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background-color: #007ACC;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+        }
+        .hero button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #00AEEF;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+        .service-card {
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            background-color: #E6F4F9;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .service-card h3 {
+            color: #007ACC;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .section h2 {
+            text-align: center;
+            color: #007ACC;
+        }
+        .form-container, .dashboard {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .ai-chat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            width: 300px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .ai-chat input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AlbaCare</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Login</a>
+            <a href="#">Sign Up</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>All Your Healthcare, One Place</h2>
+        <p>Book appointments, request tests, get medicines, and more — with ease.</p>
+        <button>Book Appointment / Request Test</button>
+    </section>
+
+    <section class="services">
+        <div class="service-card"><h3>AlbaCare Hospital</h3><p>Specialist care, trusted doctors, easy appointment booking.</p></div>
+        <div class="service-card"><h3>AlbaCare Diagnostic</h3><p>Request lab tests, get reports online, choose checkup packages.</p></div>
+        <div class="service-card"><h3>AlbaCare Drug</h3><p>Order prescriptions, schedule deliveries, manage doses.</p></div>
+        <div class="service-card"><h3>AlbaCare AI Assistant</h3><p>24/7 smart chatbot for health questions, results, and reminders.</p></div>
+    </section>
+
+    <section class="section dashboard">
+        <h2>Patient Dashboard</h2>
+        <p>Welcome, [Patient Name]!</p>
+        <ul>
+            <li>📅 Book or view your appointments</li>
+            <li>🧪 Request lab tests</li>
+            <li>📃 View diagnostic results</li>
+            <li>💬 Chat with AI Assistant</li>
+            <li>💊 Refill prescriptions</li>
+        </ul>
+    </section>
+
+    <section class="section form-container">
+        <h2>Appointment Booking</h2>
+        <div class="form-group"><input type="text" placeholder="Full Name" /></div>
+        <div class="form-group"><input type="email" placeholder="Email Address" /></div>
+        <div class="form-group"><input type="date" /></div>
+        <div class="form-group"><textarea placeholder="Reason for Appointment"></textarea></div>
+        <button>Submit Appointment</button>
+    </section>
+
+    <div class="ai-chat">
+        <strong>💡 AI Assistant</strong>
+        <p>Hi! How can I help you today?</p>
+        <input type="text" placeholder="Type your message..." />
+    </div>
+
+    <footer>
+        © 2025 AlbaCare. All rights reserved. | Contact | Privacy Policy | Terms
+    </footer>
+</body>
+</html>
